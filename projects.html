@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Ashalatha Gangineni</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="js/main.js"></script>
+  <style>
+    .projects-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1.5rem;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s;
+    }
+    .project-card:hover {
+      transform: translateY(-5px);
+    }
+    .project-card h3 {
+      margin-top: 0;
+      color: #2c3e50;
+    }
+    .project-card p {
+      margin: 0.5rem 0;
+    }
+    .project-card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      text-decoration: none;
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ashalatha Gangineni</h1>
+    <button id="toggle-theme">Toggle Dark Mode</button>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="tools.html">Tools I Know</a>
+      <a href="assets/docs/ashalatha_resume.pdf" download>Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="projects">
+      <h2 style="text-align: center;">🔐 My Cybersecurity Projects</h2>
+      <p style="text-align: center; max-width: 700px; margin: auto;">
+        A collection of real-world cybersecurity and forensics projects showcasing my experience in threat detection, cloud security, malware analysis, and mobile forensics.
+      </p>
+
+      <div class="projects-container">
+
+        <div class="project-card">
+          <h3>🔍 SIEM Integration & Automation</h3>
+          <p>Integrated Wazuh & TheHive for real-time log monitoring and incident response in a simulated SOC.</p>
+          <p><strong>Tech Stack:</strong> Wazuh, TheHive, Elasticsearch, Kibana, Ubuntu</p>
+          <a href="https://github.com/ashalathagangineni13/SIEM-Integration-Automation" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>☁️ AWS Cloud Threat Detection</h3>
+          <p>Simulated cloud-native SOC using AWS services & Python for threat detection and log analysis.</p>
+          <p><strong>Tech Stack:</strong> AWS GuardDuty, CloudTrail, Python, Pandas, Boto3</p>
+          <a href="https://github.com/ashalathagangineni13/cloud-threat-detection" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>📱 Behavioral Analysis Android App</h3>
+          <p>Developed a forensic app for detecting suspicious mobile behavior to support pre-investigations.</p>
+          <p><strong>Tech Stack:</strong> Java, Android Studio, SQLite, Firebase (opt)</p>
+          <a href="https://github.com/ashalathagangineni13/Behavioral-Analysis-App" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>🔐 Hybrid Cryptography Storage</h3>
+          <p>Engineered secure file encryption using RSA and AES before cloud upload.</p>
+          <p><strong>Tech Stack:</strong> Python, PyCryptodome, Tkinter, SQLite</p>
+          <a href="https://github.com/ashalathagangineni13/Hybrid-Cryptography" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>🧪 Mobile Forensic Toolkit</h3>
+          <p>Simulated real-world crime scenarios for log extraction, timeline building, and visual forensics.</p>
+          <p><strong>Tech Stack:</strong> Python, Pandas, Plotly, ADB, SQLite</p>
+          <a href="https://github.com/ashalathagangineni13/Mobile-Forensic-Toolkit" target="_blank">🔗 View Code</a>
+        </div>
+
+        <div class="project-card">
+          <h3>💣 Petya Ransomware Analysis</h3>
+          <p>Reverse engineered Petya malware to study its encryption logic and IOCs.</p>
+          <p><strong>Tech Stack:</strong> Ghidra, YARA, Wireshark, PEStudio, REMnux</p>
+          <a href="https://github.com/ashalathagangineni13/Ransomware-Reverse-Engineering" target="_blank">🔗 View Code</a>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align:center;">&copy; 2025 Ashalatha Gangineni</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tools I Know | Ashalatha Gangineni</title>
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <script defer src="js/main.js"></script>
+  <style>
+    .tools-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      padding: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .tool-card {
+      background: white;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08);
+      transition: transform 0.2s;
+    }
+    .tool-card:hover {
+      transform: scale(1.03);
+    }
+    .tool-card h4 {
+      margin: 0.5rem 0;
+      color: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Ashalatha Gangineni</h1>
+    <button id="toggle-theme">Toggle Dark Mode</button>
+    <nav>
+      <a href="about.html">About</a>
+      <a href="index.html">Home</a>
+      <a href="projects.html">Projects</a>
+      <a href="certifications.html">Certifications</a>
+      <a href="tools.html" class="active">Tools I Know</a>
+      <a href="assets/docs/ashalatha_resume.pdf" download>Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="tools">
+      <h2 style="text-align:center;">🛠️ Tools I Know</h2>
+      <p style="text-align:center; max-width: 700px; margin: auto;">
+        Here’s a curated list of cybersecurity, forensic, cloud, and development tools I’ve worked with across my projects and research.
+      </p>
+
+      <div class="tools-container">
+        <!-- Cybersecurity & Forensics Tools -->
+        <div class="tool-card"><h4>Wireshark</h4></div>
+        <div class="tool-card"><h4>Burp Suite</h4></div>
+        <div class="tool-card"><h4>Nessus</h4></div>
+        <div class="tool-card"><h4>Metasploit</h4></div>
+        <div class="tool-card"><h4>Ghidra</h4></div>
+        <div class="tool-card"><h4>YARA</h4></div>
+        <div class="tool-card"><h4>PEStudio</h4></div>
+        <div class="tool-card"><h4>ProcMon</h4></div>
+        <div class="tool-card"><h4>RegShot</h4></div>
+        <div class="tool-card"><h4>ADB</h4></div>
+        <div class="tool-card"><h4>Jupyter Notebooks</h4></div>
+
+        <!-- SIEM & Monitoring -->
+        <div class="tool-card"><h4>Wazuh</h4></div>
+        <div class="tool-card"><h4>TheHive</h4></div>
+        <div class="tool-card"><h4>Elasticsearch</h4></div>
+        <div class="tool-card"><h4>Kibana</h4></div>
+        <div class="tool-card"><h4>Splunk</h4></div>
+
+        <!-- Cloud & Scripting -->
+        <div class="tool-card"><h4>AWS GuardDuty</h4></div>
+        <div class="tool-card"><h4>AWS CloudTrail</h4></div>
+        <div class="tool-card"><h4>Python</h4></div>
+        <div class="tool-card"><h4>Pandas</h4></div>
+        <div class="tool-card"><h4>Boto3</h4></div>
+        <div class="tool-card"><h4>SQLite</h4></div>
+
+        <!-- Other Tools -->
+        <div class="tool-card"><h4>Android Studio</h4></div>
+        <div class="tool-card"><h4>VS Code</h4></div>
+        <div class="tool-card"><h4>Git & GitHub</h4></div>
+        <div class="tool-card"><h4>REMnux / FlareVM</h4></div>
+        <div class="tool-card"><h4>Microsoft Defender</h4></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p style="text-align:center;">&copy; 2025 Ashalatha Gangineni</p>
+  </footer>
+
+</body>
+</html>
